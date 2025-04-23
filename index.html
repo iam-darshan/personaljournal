@@ -120,9 +120,6 @@
     <script>
       setInterval(time, 1000);
 
-      if(localStorage.getItem("usrname")==null){
-        document.querySelector("#hello").innerHTML =" "
-      }
         
 
       function time() {
@@ -148,6 +145,10 @@
             localStorage.getItem("usrname") +
             ` <i class="fa-solid fa-user fa-xl"></i>`;
         }
+        else{
+          document.querySelector("#hello").innerHTML =" "
+        }
+        
       };
 
       function dateChange() {

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -127,6 +127,19 @@
         let hour = d.getHours();
         let min = d.getMinutes();
         let sec = d.getSeconds();
+        hour = hour.toString();
+        min = min.toString();
+        sec = sec.toString();
+
+        if (hour.length == 1) {
+          hour = "0" + hour;
+        }
+        if (min.length == 1) {
+          min = "0" + min;
+        }
+        if (sec.length == 1) {
+          sec = "0" + sec;
+        }
         document.querySelector("#hello").innerHTML =
           "Hello, " +
           localStorage.getItem("usrname") +

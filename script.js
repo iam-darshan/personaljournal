@@ -105,7 +105,7 @@ const quotesNew = () => {
 };
 
 const popupSave = () => {
-  let name = document.querySelector("#username").value;
+  var name = document.querySelector("#username").value;
   localStorage.setItem("usrname", name);
   document.querySelector(".popup").style.display = "none";
   document.querySelector("#hello").innerHTML =
@@ -117,5 +117,8 @@ const popupSave = () => {
   document.querySelector("#hello").innerHTML += `<br>${hour}:${min}`;
 };
 
+if(name==null){
+  document.querySelector("#hello").innerHTML =""
+}
 
 

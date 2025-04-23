@@ -47,6 +47,6 @@ Textarea has a notebook-style ruled background for a clean writing feel.
 
 ## 💡 Future Features (Ideas)
 
--🎶 Background Music 
--🌤️ Weather Integration
+- 🎶 **Background Music API Integration **
+- 🌤️ **Weather API Integration**
 

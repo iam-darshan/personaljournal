@@ -120,6 +120,11 @@
     <script>
       setInterval(time, 1000);
 
+      if(localStorage.getItem("usrname")==null){
+        document.querySelector("#hello").innerHTML =""
+      }
+        
+
       function time() {
         let d = new Date();
         let hour = d.getHours();

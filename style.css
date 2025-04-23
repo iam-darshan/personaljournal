@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: background:url(https://png.pngtree.com/thumb_back/fw800/background/20210901/pngtree-vintage-paper-simple-aesthetic-background-image_780909.jpg);;
+}
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0px;
+  height: auto;
+  width: 100vh;
+  gap: 5px;
+}
+.journal {
+  width: 100%;
+  background: wheat;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3/2;
+  margin-top: 10px;
+}
+
+#text {
+  width: 100%;
+  height: 100%;
+  background: url(https://img.freepik.com/free-vector/hand-drawn-blue-lined-paper-background_23-2151168913.jpg?t=st=1745065834~exp=1745069434~hmac=c046b8ccba633bc0f083cce36045726b8a807c5a65647f57eb7cf07b78869772&w=996);
+
+  font-size: 20px;
+  font-family: "Outfit", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 5px;
+  resize: none;
+  padding-left: 100px;
+  padding-top: 20px;
+  line-height: 35px;
+  background-size: 100% 35px;
+}
+
+.cen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#date{
+    font-family: "outfit";
+}
+
+.savebtn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    height: 28px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "outfit";
+    font-weight: 600;
+    
+}
+
+.savebtn:hover{
+  background-color: rgb(8, 8, 105);
+  transition: 0.4s;
+}
+
+.dateAndSave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+.headingAndOther{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.quote {
+    font-style: italic;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+}
+
+.welcomeText{
+  font-family: outfit;
+}
+
+#clrPicker{
+  height: 100px;
+  width: 50px;
+}
+
+.btns{
+
+}

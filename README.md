@@ -47,17 +47,6 @@ Textarea has a notebook-style ruled background for a clean writing feel.
 
 ## 💡 Future Features (Ideas)
 
-🎶 Background Music 
-🌤️ Weather Integration
+-🎶 Background Music 
+-🌤️ Weather Integration
 
-
-
-## 📂 Folder Structure
-
-```bash
-journal-web-app/
-│
-├── index.html       # Main UI
-├── style.css        # Styles for layout, fonts, backgrounds
-├── script.js        # Core logic (save, load, quotes, time)
-├── README.md        # This file
